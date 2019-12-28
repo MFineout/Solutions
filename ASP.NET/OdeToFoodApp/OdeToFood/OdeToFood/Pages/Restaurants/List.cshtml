@@ -1,0 +1,36 @@
+﻿@page
+@model OdeToFood.ListModel
+@{
+    ViewData["Title"] = "Restaurants";
+}
+
+<h1>Restaurants</h1>
+
+<form method="get"> <!-- search is a read operation, so use 'get'--> 
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" /> <!-- asp-for will set the name so input model binding works, and will set the value for output data as well. The 'Model' part is assumed so no need to put Model.SearchTerm -->
+            <span class="input-group-append">
+                <button class="btn btn-secondary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+
+
+</form>
+
+
+
+@foreach(var restaurant in Model.Restaurants)
+ {
+    <partial name="_Summary" model="restaurant" /> 
+    <br/>
+ } 
+
+<a asp-page="./Edit" class="btn btn-primary">Add restaurant</a>
+
+@section footer  {
+<div>@Model.Message</div>
+}
