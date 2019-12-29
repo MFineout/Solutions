@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fineout.CSharp7.OutVariables", "Fineout.CSharp7.OutVariables\Fineout.CSharp7.OutVariables.csproj", "{171119DD-CA7D-47A6-A512-5B3FB38864D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fineout.CSharp7.PatternMatching", "Fineout.CSharp7.PatternMatching\Fineout.CSharp7.PatternMatching.csproj", "{F2504076-0A54-4B6B-88F3-C0E2D308F7BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fineout.CSharp7.Tuples", "Fineout.CSharp7.Tuples\Fineout.CSharp7.Tuples.csproj", "{E7A58CF8-B017-4754-BDA6-905FC4CFEE10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fineout.CSharp7.LocalFunctions", "Fineout.CSharp7.LocalFunctions\Fineout.CSharp7.LocalFunctions.csproj", "{F0E4DDB1-FDF6-4163-A4A9-6F81108A7E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fineout.CSharp7.LiteralImprovements", "Fineout.CSharp7.LiteralImprovements\Fineout.CSharp7.LiteralImprovements.csproj", "{B2DF21F0-4E76-43E7-86F2-1A1134E79DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fineout.CSharp7.RefReturnsAndLocals", "Fineout.CSharp7.RefReturnsAndLocals\Fineout.CSharp7.RefReturnsAndLocals.csproj", "{0119DCD2-0406-46AA-BF64-C0E64016DB64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fineout.CSharp7.GeneralizedAsyncReturnTypes", "Fineout.CSharp7.GeneralizedAsyncReturnTypes\Fineout.CSharp7.GeneralizedAsyncReturnTypes.csproj", "{82AB93FA-4D51-4BDA-A645-FFEBEB1F4837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fineout.CSharp7.MoreExpressionBodiedMembers", "Fineout.CSharp7.MoreExpressionBodiedMembers\Fineout.CSharp7.MoreExpressionBodiedMembers.csproj", "{FFE13942-E7E5-4D7B-9736-BE4FD104126C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fineout.CSharp7.ThrowExpressions", "Fineout.CSharp7.ThrowExpressions\Fineout.CSharp7.ThrowExpressions.csproj", "{7E389522-E57A-4C1D-877B-D17DC8A75B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8D0B1AD-1760-49A9-9B0B-7EC70411769B}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{171119DD-CA7D-47A6-A512-5B3FB38864D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171119DD-CA7D-47A6-A512-5B3FB38864D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171119DD-CA7D-47A6-A512-5B3FB38864D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171119DD-CA7D-47A6-A512-5B3FB38864D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2504076-0A54-4B6B-88F3-C0E2D308F7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2504076-0A54-4B6B-88F3-C0E2D308F7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2504076-0A54-4B6B-88F3-C0E2D308F7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2504076-0A54-4B6B-88F3-C0E2D308F7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A58CF8-B017-4754-BDA6-905FC4CFEE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A58CF8-B017-4754-BDA6-905FC4CFEE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A58CF8-B017-4754-BDA6-905FC4CFEE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A58CF8-B017-4754-BDA6-905FC4CFEE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E4DDB1-FDF6-4163-A4A9-6F81108A7E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E4DDB1-FDF6-4163-A4A9-6F81108A7E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E4DDB1-FDF6-4163-A4A9-6F81108A7E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E4DDB1-FDF6-4163-A4A9-6F81108A7E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DF21F0-4E76-43E7-86F2-1A1134E79DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DF21F0-4E76-43E7-86F2-1A1134E79DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DF21F0-4E76-43E7-86F2-1A1134E79DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DF21F0-4E76-43E7-86F2-1A1134E79DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0119DCD2-0406-46AA-BF64-C0E64016DB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0119DCD2-0406-46AA-BF64-C0E64016DB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0119DCD2-0406-46AA-BF64-C0E64016DB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0119DCD2-0406-46AA-BF64-C0E64016DB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AB93FA-4D51-4BDA-A645-FFEBEB1F4837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AB93FA-4D51-4BDA-A645-FFEBEB1F4837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AB93FA-4D51-4BDA-A645-FFEBEB1F4837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AB93FA-4D51-4BDA-A645-FFEBEB1F4837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE13942-E7E5-4D7B-9736-BE4FD104126C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE13942-E7E5-4D7B-9736-BE4FD104126C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE13942-E7E5-4D7B-9736-BE4FD104126C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE13942-E7E5-4D7B-9736-BE4FD104126C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E389522-E57A-4C1D-877B-D17DC8A75B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E389522-E57A-4C1D-877B-D17DC8A75B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E389522-E57A-4C1D-877B-D17DC8A75B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E389522-E57A-4C1D-877B-D17DC8A75B19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
